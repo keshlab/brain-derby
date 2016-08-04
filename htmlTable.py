@@ -27,11 +27,11 @@ def CountRaters(study):
 			t.rows.append([names, study, table[names]])
 			htmlcode=str(t)
 				
-		print(htmlcode)
+		return htmlcode 
 	
 		
-CountRaters('BSNIP2')
-CountRaters('BICEPS')
-CountRaters('Childrens')
-CountRaters('PARDIP') # input the name of the study, and view table of number of brains completed 
+#CountRaters('BSNIP2')
+#CountRaters('BICEPS')
+#CountRaters('Childrens')
+#CountRaters('PARDIP') # input the name of the study, and view table of number of brains completed 
 
